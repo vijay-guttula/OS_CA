@@ -1,4 +1,4 @@
-. Considering the arrival time and burst time requirement of the process the scheduler
+Considering the arrival time and burst time requirement of the process the scheduler
 schedules the processes by interrupting the processor after every 6 units of time and does
 consider the completion of the process in this iteration. The scheduler than checks for the number
 of process waiting for the processor and allots the processor to the process but interrupting the
