@@ -96,7 +96,7 @@ void rr(int no, int remt[10], int Cur_t, int arT[10], int bsT[10])
 		P_no[i] = i + 1;
     }
 	
-    for(i=0;i<n;i++)
+    for(i = 0; i < n; i++)
     {
         loc = i;
         for(j = i + 1; j < n; j++)
@@ -132,7 +132,7 @@ void rr(int no, int remt[10], int Cur_t, int arT[10], int bsT[10])
         total = total + tut_t[i];
         printf("\nP%d\t\t\t%d\t\t\t%d\t\t\t%d", P_no[i], btime[i], w_time[i], tut_t[i]);
     }
-    avg_tut = (float)total / n;
+    avg_tut = (float) total / n;
     printf("\n\nAverage waiting time = %f", avg_wait);
     printf("\n Average turnaround time = %f\n", avg_tut);
 	
